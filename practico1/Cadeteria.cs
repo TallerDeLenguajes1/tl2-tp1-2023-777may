@@ -11,22 +11,37 @@ class Cadeteria
         this->telefono = telefono;
         this->listadoCadetes = NULL;
     }
-    void agregarCadete(){
+    public void agregarCadete(){
 
     } 
-    void quitarCadete(){
+    public void quitarCadete(){
 
     }
-    int cantidadPedidosCadete(){
+    public int cantidadPedidosCadete(){
 
     }
-    float jornalAPagarCadete(){
+    public float jornalAPagarCadete(){
 
     } 
-    float jornalAPagarTodos(){
+    public float jornalAPagarTodos(){
 
     }
-    void recibirPedido(){
-        
+    private void altaPedido(){ //seria privado para poder llamarlo en asignarlo a cadete
+
+    }
+
+    public void asignarPedidoCadete(){
+
+    }
+
+    public void cambiarEstadoPedido(){
+
+    }
+    
+    public void reasignarPedido(){
+
+    }
+    public void informeJornada(){
+        //monto ganado y la cantidad de envíos de cada cadete y el total. Muestre también la cantidad de envíos promedio por cadete
     }
 }

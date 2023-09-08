@@ -13,10 +13,10 @@ class Cadete
         this->telefono = telefono;
         this->listadoPedidos = NULL;
     }
-    void tomarPedido(){
+    public void tomarPedido(){
 
     }
-    void borrarPedido(){
-        
+    public void borrarPedido(){
+
     }
 }
